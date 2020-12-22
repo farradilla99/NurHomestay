@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+    <title>Home</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-style.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+
+  </head>
+
+<body class="is-preload">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="staffprofile.html">Profile</a>
+        <a href="stafflisthomestay.html">Homestay</a>
+        <a href="stafflistreservation.html">Reservation</a>
+      </div>
+
+      <!-- Header -->
+      <header id="header" style="margin-top: 0px;">
+        <span style="font-size:36px;cursor:pointer; margin-left: 20px;margin-top: 25px;" onclick="openNav()">&#9776;</span>
+        <div class="logo">
+          <a href="index.html"><img src="assets/images/logo nurhomestay6.png"></a>
+        </div>
+        <div class="kemana-kita">
+          <a href="index.html"><img class="moh-kite-pergi" src="assets/images/onoff.png"></a>
+        </div>
+      </header>
+      
+            <section>
+              <div class="simple-ni" style="margin-top: 30px">
+                <form id="form-book" action="staffviewhomestay.html">
+                <div class=" nak-row-gak">
+                    Check In:<br/>
+                    <input class="bolehla" type="date" name="checkin">
+                </div>
+                <div class=" nak-row-gak">
+                    Check Out:<br/>
+                    <input class="bolehla" type="date" name="checkout">
+                </div>
+                <div class="nak-row-gak" align="center" style="width:300px; margin: auto">
+                    <button type="submit" name="check">Check Avalibility</button>
+                </div>
+                </form>
+              </div>
+            </section>
+            
+          </div>
+        </div>
+    </div>
+
+  <div class="footer">
+      Instagram<br><br>
+      Facebook<br><br>
+      <br><br><br>
+      © 2020 Pilot. All rights reserved
+  </div>
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+</body>
+
+</html>
